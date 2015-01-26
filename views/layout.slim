@@ -1,0 +1,22 @@
+doctype html
+html
+  head
+    title Sinatra Skeleton TSOHA
+    meta name="keywords" content="database project"
+    meta name="author" author="author"
+    meta charset="utf-8"
+    meta http-equiv="X-UA-Compatible" content="IE=edge"
+    meta name="viewport" content="width=device-width, initial-scale=1"
+    link href="css/bootstrap.min.css" rel="stylesheet"
+
+  body
+    nav class="navbar navbar-default" role="navigation"
+      div class="container-fluid"
+        div class="navbar-header"
+          span class="navbar-brand"
+            | Header
+    div class="container"
+      == yield
+
+    script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"
+    script src="js/bootstrap.min.js"
